@@ -40,13 +40,20 @@
 
 // Using the operator
 
-let  inputWidth = prompt("Enter the width") ;
+// let  inputWidth = prompt("Enter the width") ;
 
-let  inputHeight = prompt("Enter the height");
+// let  inputHeight = prompt("Enter the height");
 
-let width = parseInt(inputWidth);
-let height = parseInt(inputHeight);
-let area = width * height;
+// let width = parseInt(inputWidth);
+// let height = parseInt(inputHeight);
+// let area = width * height;
 
-document.write("result"+" " + area);
+// document.write("result"+" " + area);
 
+// Display day-month-year
+
+let dd = +prompt("nhập giá trị ngày");
+let mm  = +prompt("nhập giá trị tháng");
+let yy = +prompt("nhập giá trị năm");
+
+document.write("hiển thị"+" " + dd + "-" + mm + "-" + yy);
