@@ -52,8 +52,25 @@
 
 // Display day-month-year
 
-let dd = +prompt("nhập giá trị ngày");
-let mm  = +prompt("nhập giá trị tháng");
-let yy = +prompt("nhập giá trị năm");
+// let dd = +prompt("nhập giá trị ngày");
+// let mm  = +prompt("nhập giá trị tháng");
+// let yy = +prompt("nhập giá trị năm");
 
-document.write("hiển thị"+" " + dd + "-" + mm + "-" + yy);
+// document.write("hiển thị"+" " + dd + "-" + mm + "-" + yy);
+
+// Formula for circumference of a circle
+
+let r = +prompt("nhập giá trị bán kính hình tròn");
+let pi = 3.14159;
+let C = Math.ceil (2 * r * pi);
+
+document.write("kết quả chu vi hình tròn" + " " + C);
+document.write("<br/>")
+
+// Formula for calculating circle
+
+let R = +prompt("nhập giá trị bán kính hình tròn");
+let pii = 3.14159;
+let S = Math.ceil (R**2 * pii);
+
+document.write("kết quả diện tích hình tròn" + " " + S);
