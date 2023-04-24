@@ -28,12 +28,25 @@
 
 // bài 3
 
-let a = +prompt("nhập số a");
-let b = +prompt("nhập số b");
+// let a = +prompt("nhập số a");
+// let b = +prompt("nhập số b");
 
-if (a % b == 0) {
-    alert("a chia hết cho b");
-}
-else {
-    alert ("a không chia hết cho b");
-}
+// if (a % b == 0) {
+//     alert("a chia hết cho b");
+// }
+// else {
+//     alert ("a không chia hết cho b");
+// }
+
+// Using the operator
+
+let  inputWidth = prompt("Enter the width") ;
+
+let  inputHeight = prompt("Enter the height");
+
+let width = parseInt(inputWidth);
+let height = parseInt(inputHeight);
+let area = width * height;
+
+document.write("result"+" " + area);
+
